@@ -1,0 +1,17 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "contributors": [
+    "Florian Schleich <f.schleich@r-ie.de>"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo 'no tests specified'"
+  }
+}
