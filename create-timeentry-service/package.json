@@ -1,0 +1,19 @@
+{
+  "name": "create-timeentry-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "contributors": [
+    "Florian Schleich <f.schleich@r-ie.de>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo 'no tests specified'"
+  }
+}
